@@ -1,0 +1,68 @@
+# 띵썸(DdingSum) 코드 오너 지정
+
+# 기본 규칙: 모든 변경사항은 최소 1명의 코드 오너의 승인 필요
+
+# ==========================================
+# 공통 설정 파일 (Song307이 담당)
+# ==========================================
+
+# 패키지 및 의존성 관리
+package.json @Song307
+package-lock.json @Song307
+yarn.lock @Song307
+pnpm-lock.yaml @Song307
+
+# 빌드 및 번들 설정
+tailwind.config.js @Song307
+tailwind.config.ts @Song307
+next.config.js @Song307
+next.config.ts @Song307
+tsconfig.json @Song307
+jest.config.js @Song307
+.eslintrc.json @Song307
+.prettierrc.json @Song307
+.env.example @Song307
+
+# 프로젝트 문서
+README.md @Song307
+PRD.md @Song307
+CONTRIBUTING.md @Song307
+COLLABORATION_RULES.md @Song307
+
+# ==========================================
+# Supabase 관련 스키마 및 마이그레이션 (Song307이 담당)
+# ==========================================
+supabase/ @Song307
+/supabase/migrations/ @Song307
+/supabase/functions/ @Song307
+.env.local.example @Song307
+
+# ==========================================
+# GitHub 관련 설정
+# ==========================================
+.github/ @Song307
+.gitignore @Song307
+
+# ==========================================
+# 프론트엔드 (app/ 디렉토리) - 세 명 모두가 작업
+# ==========================================
+app/ @Song307
+
+# 특정 페이지별 담당자 지정 (필요시 추가)
+# app/auth/ @Developer1
+# app/matching/ @Developer2
+# app/chat/ @Developer3
+
+# ==========================================
+# 유틸리티 및 공통 컴포넌트
+# ==========================================
+lib/ @Song307
+components/common/ @Song307
+utils/ @Song307
+types/ @Song307
+constants/ @Song307
+
+# ==========================================
+# 기본 규칙: 명시되지 않은 파일은 Song307이 검토
+# ==========================================
+* @Song307
